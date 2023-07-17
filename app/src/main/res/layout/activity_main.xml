@@ -17,17 +17,18 @@
         <com.google.android.material.bottomappbar.BottomAppBar
             android:id="@+id/bottomAppBar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:background="@color/white"
-            app:fabCradleMargin="10dp"
-            app:fabCradleRoundedCornerRadius="50dp">
+            android:layout_height="67dp"
+            android:layout_gravity="center_vertical|bottom"
+            android:background="@color/teal_200"
+            app:fabCradleMargin="15dp"
+            app:fabCradleRoundedCornerRadius="50dp"
+            android:backgroundTint="#E1DEE8"
+            >
 
             <com.google.android.material.bottomnavigation.BottomNavigationView
                 android:id="@+id/bottomNavigationView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="20dp"
                 android:background="@android:color/transparent"
                 app:elevation="0dp"
                 app:labelVisibilityMode="labeled"
@@ -35,15 +36,18 @@
 
         </com.google.android.material.bottomappbar.BottomAppBar>
 
+
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:src="@drawable/baseline_person_add_alt_1_24"
             android:backgroundTint="@color/white"
-            android:src="@drawable/ic_profile"
+            android:background="@drawable/border"
             app:layout_anchor="@id/bottomAppBar"
             app:maxImageSize="40dp"
-            app:tint="@color/lavender" />
+            app:tint="#0B3E8E"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.Circular" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -54,7 +58,7 @@
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                android:background="@color/lavender"
+                android:background="#5ccda7"
                 android:elevation="4dp"
                 android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
                 android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
@@ -74,8 +78,8 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         app:headerLayout="@layout/nav_header"
-        app:itemIconTint="@color/lavender"
-        app:itemTextColor="@color/lavender"
+        app:itemIconTint="#434553"
+        app:itemTextColor="@color/black"
         app:menu="@menu/nav_menu" />
 
 </androidx.drawerlayout.widget.DrawerLayout>

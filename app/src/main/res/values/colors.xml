@@ -7,12 +7,27 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-
-
-    <color name="lavender">#8692f7</color>
     <color name="your_drawer_background_color">#ECEFF1</color>
 
     <color name="orange">#D68101</color>
     <color name="gray">#F5F5F5</color>
+
+    <color name="blue">#4228d4</color>
+    <color name="green">#00FF00</color>
+    <color name="selected_color">#ECECEC</color>
+    <color name="grey">#626565</color>
+    <color name="azul">#1E8FE6</color>
+    <color name="violeta">#7433E6</color>
+
+    <color name="lavender">#8692f7</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="red">#E46868</color>
+    <color name="rojo">#E10A0A</color>
+    <color name="verde">#0F9706</color>
+    <color name="lavanda">#8692f7</color>
 
 </resources>

@@ -4,13 +4,13 @@
 
     <item
         android:id="@+id/nav_home"
-        android:title="Home"
-        android:icon="@drawable/ic_home"/>
+        android:title="Inicio"
+        android:icon="@drawable/baseline_home_24"/>
 
     <item
         android:id="@+id/nav_block_list"
-        android:title="Block List"
-        android:icon="@drawable/ic_block_list"
+        android:title="Calendar"
+        android:icon="@drawable/baseline_calendar_month_24"
         />
 
     <item
@@ -18,11 +18,11 @@
 
     <item
         android:id="@+id/nav_bottom_premium"
-        android:title="Premium"
-        android:icon="@drawable/ic_premium" />
+        android:title="Finalizar"
+        android:icon="@drawable/baseline_access_alarm_24" />
     <item
         android:id="@+id/nav_help"
-        android:title="Help"
-        android:icon="@drawable/ic_help" />
+        android:title="info"
+        android:icon="@drawable/baseline_info_24" />
 
 </menu>
